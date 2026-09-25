@@ -1,1 +1,780 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <title>Swipe Ball: Global Rankings 개인정보처리방침</title>
+  <meta
+    name="description"
+    content="Swipe Ball: Global Rankings 개인정보처리방침"
+  >
+
+  <style>
+    :root {
+      --bg: #f4f4f5;
+      --card: #ffffff;
+      --text: #111827;
+      --muted: #6b7280;
+      --line: #d1d5db;
+
+      --blue: #2563eb;
+      --blue-dark: #1d4ed8;
+      --blue-soft: #eff6ff;
+
+      --border: #e5e7eb;
+      --divider: #eef0f3;
+
+      --radius: 18px;
+      --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        "Noto Sans KR",
+        "Apple SD Gothic Neo",
+        "Malgun Gothic",
+        Arial,
+        sans-serif;
+
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.72;
+    }
+
+    a {
+      color: var(--blue);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .page {
+      width: 100%;
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .header {
+      padding: 34px 28px 18px;
+      border-bottom: 1px solid var(--divider);
+      background: linear-gradient(
+        180deg,
+        #ffffff 0%,
+        #fbfbfc 100%
+      );
+    }
+
+    .title {
+      margin: 0 0 10px;
+
+      font-size: clamp(28px, 4vw, 54px);
+      line-height: 1.12;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+
+      word-break: keep-all;
+    }
+
+    .meta {
+      margin-bottom: 18px;
+
+      font-size: 15px;
+      color: var(--muted);
+    }
+
+    .language-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .language-tabs a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+
+      min-width: 88px;
+
+      padding: 11px 16px;
+
+      border: 1px solid var(--line);
+      border-radius: 12px;
+
+      background: #ffffff;
+
+      color: var(--blue);
+      font-size: 16px;
+      font-weight: 700;
+
+      text-decoration: none;
+
+      transition:
+        background 0.15s ease,
+        border-color 0.15s ease,
+        transform 0.15s ease;
+    }
+
+    .language-tabs a:hover {
+      background: #f9fafb;
+      border-color: #c4cbd4;
+      transform: translateY(-1px);
+    }
+
+    .language-tabs a.active {
+      background: var(--blue-soft);
+      border-color: #93c5fd;
+      color: var(--blue-dark);
+
+      box-shadow:
+        inset 0 0 0 1px rgba(37, 99, 235, 0.06);
+    }
+
+    .content {
+      padding: 26px 28px 34px;
+    }
+
+    h2 {
+      margin: 28px 0 10px;
+
+      font-size: 24px;
+      line-height: 1.35;
+      letter-spacing: -0.02em;
+    }
+
+    p {
+      margin: 10px 0 0;
+
+      font-size: 16px;
+      word-break: keep-all;
+    }
+
+    ul {
+      margin: 10px 0 0 20px;
+      padding: 0;
+    }
+
+    li {
+      margin: 6px 0;
+      font-size: 16px;
+    }
+
+    .notice {
+      margin-top: 16px;
+      padding: 14px 16px;
+
+      border: 1px solid var(--border);
+      border-radius: 14px;
+
+      background: #fafafa;
+
+      color: #374151;
+      font-size: 15px;
+    }
+
+    .footer {
+      margin-top: 28px;
+      padding-top: 18px;
+
+      border-top: 1px solid var(--divider);
+
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .footer-small {
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    @media (max-width: 640px) {
+      .page {
+        padding: 18px 12px 44px;
+      }
+
+      .header {
+        padding: 24px 18px 16px;
+      }
+
+      .content {
+        padding: 20px 18px 26px;
+      }
+
+      .language-tabs a {
+        min-width: auto;
+        padding: 10px 14px;
+        font-size: 15px;
+      }
+
+      h2 {
+        font-size: 21px;
+      }
+
+      p,
+      li {
+        font-size: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="page">
+
+    <main class="card">
+
+      <!-- 상단 -->
+      <section class="header">
+
+        <h1 class="title">
+          Swipe Ball: Global Rankings 개인정보처리방침
+        </h1>
+
+        <div class="meta">
+          시행일: 2026-10-12 · 버전: 2026-10-12
+        </div>
+
+        <nav
+          class="language-tabs"
+          aria-label="언어 선택"
+        >
+          <a
+            class="active"
+            href="./ko.html"
+            lang="ko"
+          >
+            한국어
+          </a>
+
+          <a
+            href="./en.html"
+            lang="en"
+          >
+            English
+          </a>
+
+          <a
+            href="./ja.html"
+            lang="ja"
+          >
+            日本語
+          </a>
+        </nav>
+
+      </section>
+
+
+      <!-- 본문 -->
+      <section class="content">
+
+        <p>
+          Design Future Games(이하 “개발자”)는
+          모바일 게임
+          <strong>Swipe Ball: Global Rankings</strong>
+          (이하 “서비스”)를 제공함에 있어
+          이용자의 개인정보 및 관련 정보를 중요하게 생각하며,
+          관련 법령 및 Google Play 정책에 따라
+          본 개인정보처리방침을 공개합니다.
+        </p>
+
+
+        <div class="notice">
+          서비스 이용 조건에 관한 내용은
+          <a href="../terms/ko.html">
+            이용약관
+          </a>
+          을 확인해 주세요.
+        </div>
+
+
+        <h2>
+          1. 개발자 정보 및 문의처
+        </h2>
+
+        <p>
+          개발자명: Design Future Games
+        </p>
+
+        <p>
+          이메일:
+          <a href="mailto:designfuturegames.cs@gmail.com">
+            designfuturegames.cs@gmail.com
+          </a>
+        </p>
+
+
+        <h2>
+          2. 수집·처리하는 정보
+        </h2>
+
+        <p>
+          개발자는 자체 회원가입 시스템이나
+          자체 회원 데이터베이스를 운영하지 않으며,
+          이용자의 개인정보를 개발자 자체 서버에
+          상시 저장하는 것을 기본 구조로 하지 않습니다.
+          다만 서비스 이용 과정에서
+          다음과 같은 정보가 처리될 수 있습니다.
+        </p>
+
+        <ul>
+
+          <li>
+            <strong>기기 내 로컬 저장 정보:</strong>
+            게임 진행 정보, 설정값,
+            임시 데이터 및 기기 내 저장 데이터
+          </li>
+
+          <li>
+            <strong>Google Play Games 사용 시:</strong>
+            플레이어 식별 정보,
+            로그인 상태,
+            업적,
+            리더보드 기록 및
+            게임 이용과 관련된 정보
+          </li>
+
+          <li>
+            <strong>Google Play Billing 사용 시:</strong>
+            구매 여부,
+            구매 상태,
+            상품 구매 및 복구 여부 확인을 위해
+            필요한 거래 관련 정보
+          </li>
+
+          <li>
+            <strong>Google AdMob 사용 시:</strong>
+            광고 제공,
+            광고 성과 측정,
+            부정 사용 방지 등을 위해
+            기기 식별자,
+            광고 식별자,
+            IP 주소,
+            사용자 상호작용 정보,
+            진단 정보 등이 처리될 수 있습니다.
+          </li>
+
+          <li>
+            <strong>Firebase Analytics 사용 시:</strong>
+            앱 이용 현황,
+            이벤트 기록,
+            이용 패턴,
+            기기 및 앱 환경 정보,
+            분석을 위한 식별 정보
+          </li>
+
+          <li>
+            <strong>Firebase Crashlytics 사용 시:</strong>
+            앱 충돌 정보,
+            오류 로그,
+            앱 충돌 당시의 기기 상태,
+            운영체제 정보,
+            앱 버전 및
+            서비스 안정성 분석을 위한 진단 정보
+          </li>
+
+        </ul>
+
+        <p>
+          위 정보 중 일부 또는 상당 부분은
+          개발자가 이용자로부터 직접 입력받는 방식이 아니라,
+          Google Play Games,
+          Google Play Billing,
+          Google AdMob,
+          Firebase Analytics,
+          Firebase Crashlytics 등
+          외부 서비스 또는 SDK를 통하여
+          자동으로 처리될 수 있습니다.
+        </p>
+
+
+        <h2>
+          3. 정보의 이용 목적
+        </h2>
+
+        <p>
+          개발자는 서비스 제공 및 운영을 위하여
+          필요한 범위에서 다음과 같은 목적으로
+          정보를 처리할 수 있습니다.
+        </p>
+
+        <ul>
+
+          <li>
+            게임 실행,
+            설정 저장,
+            진행 상태 유지 등
+            서비스 기본 기능 제공
+          </li>
+
+          <li>
+            Google Play Games 로그인,
+            업적 및 글로벌 리더보드 기능 제공
+          </li>
+
+          <li>
+            Google Play Billing을 통한
+            인앱결제 처리 및
+            구매 복구 여부 확인
+          </li>
+
+          <li>
+            광고 제공,
+            광고 성과 측정 및
+            광고 관련 부정 사용 방지
+          </li>
+
+          <li>
+            이용 패턴 분석,
+            게임 콘텐츠 및 기능 개선,
+            서비스 운영 최적화
+          </li>
+
+          <li>
+            앱 충돌,
+            오류,
+            비정상 종료,
+            성능 저하 문제의
+            분석 및 대응
+          </li>
+
+          <li>
+            비정상적인 서비스 이용,
+            악용 또는
+            부정행위의 탐지 및 방지
+          </li>
+
+        </ul>
+
+
+        <h2>
+          4. 보유 및 이용 기간
+        </h2>
+
+        <p>
+          개발자는 자체 서버 기반 회원 데이터베이스를
+          운영하지 않으므로,
+          개발자가 이용자의 개인정보를
+          별도로 장기간 보관하는 것을
+          원칙적인 서비스 구조로 하지 않습니다.
+        </p>
+
+        <ul>
+
+          <li>
+            <strong>기기 내 로컬 저장 데이터:</strong>
+            앱 삭제,
+            앱 데이터 초기화,
+            기기 변경 또는
+            이용자의 직접적인 데이터 삭제에 따라
+            제거될 수 있습니다.
+          </li>
+
+          <li>
+            <strong>
+              Google Play Games /
+              Google Play Billing /
+              Google AdMob /
+              Firebase 관련 정보:
+            </strong>
+            각 서비스 제공자의 정책,
+            시스템 구조,
+            이용자의 계정 상태 및
+            관련 법령에 따라
+            정보의 보관 기간이 달라질 수 있습니다.
+          </li>
+
+          <li>
+            <strong>문의 이메일:</strong>
+            이용자 문의 처리,
+            고객 지원 및
+            분쟁 대응을 위하여
+            필요한 범위에서
+            합리적인 기간 동안 보관될 수 있습니다.
+          </li>
+
+        </ul>
+
+
+        <h2>
+          5. 제3자 서비스 사용 및 정보 처리
+        </h2>
+
+        <p>
+          서비스는 게임 기능 제공,
+          로그인,
+          결제,
+          광고,
+          이용 분석 및
+          서비스 안정성 확보 등을 위해
+          다음과 같은 외부 서비스를
+          사용할 수 있습니다.
+        </p>
+
+        <ul>
+
+          <li>
+            Google Play Games
+          </li>
+
+          <li>
+            Google Play Billing
+          </li>
+
+          <li>
+            Google AdMob
+          </li>
+
+          <li>
+            Firebase Analytics
+          </li>
+
+          <li>
+            Firebase Crashlytics
+          </li>
+
+        </ul>
+
+        <p>
+          개발자는 이용자의 개인정보를
+          판매하는 것을 목적으로 하지 않으며,
+          개발자가 임의로 개인정보를
+          제3자에게 제공하는 것을
+          서비스 운영 목적으로 하지 않습니다.
+        </p>
+
+        <p>
+          다만 서비스에 포함된
+          외부 서비스 및 SDK가
+          각각의 기능 제공과
+          정책상 필요한 범위에서
+          관련 정보를 처리할 수 있습니다.
+        </p>
+
+
+        <h2>
+          6. 별도 권한 요청 및 로컬 저장
+        </h2>
+
+        <p>
+          서비스는 원칙적으로
+          게임 플레이에 불필요한
+          민감한 기기 권한의 사용을
+          전제로 하지 않습니다.
+        </p>
+
+        <p>
+          다만 운영체제,
+          Google Play,
+          광고,
+          로그인,
+          결제 또는
+          관련 법령과 정책에 따라
+          필요한 안내나 동의 절차가
+          표시될 수 있습니다.
+        </p>
+
+        <p>
+          게임 진행 상태,
+          설정 정보 및
+          일부 임시 데이터는
+          이용자의 기기 내부에
+          로컬 데이터로 저장될 수 있습니다.
+        </p>
+
+        <p>
+          이러한 데이터는
+          앱 삭제 또는
+          앱 데이터 초기화 시
+          함께 삭제될 수 있습니다.
+        </p>
+
+
+        <h2>
+          7. 이용자의 권리 및 행사 방법
+        </h2>
+
+        <p>
+          이용자는 자신의 정보와 관련하여
+          다음과 같은 방법으로
+          정보를 관리하거나
+          관련 요청을 할 수 있습니다.
+        </p>
+
+        <ul>
+
+          <li>
+            앱 삭제 또는
+            앱 데이터 초기화를 통한
+            기기 내부 로컬 데이터 삭제
+          </li>
+
+          <li>
+            Google Play Games 또는
+            Google 계정 설정을 통한
+            게임 관련 데이터 관리
+          </li>
+
+          <li>
+            Android 또는
+            Google 계정 설정을 통한
+            광고 개인화 및
+            광고 식별자 관련 설정 관리
+          </li>
+
+          <li>
+            개발자 이메일을 통한
+            개인정보 관련 문의 및 요청
+          </li>
+
+        </ul>
+
+        <p>
+          Google Play Games,
+          Google Play Billing,
+          Google AdMob,
+          Firebase Analytics,
+          Firebase Crashlytics 등을 통해
+          처리되는 정보는
+          각 외부 서비스 제공자의
+          시스템 및 정책에 따라
+          관리될 수 있습니다.
+        </p>
+
+        <p>
+          이에 따라 해당 정보에 관한
+          일부 열람,
+          삭제 또는 변경 요청은
+          해당 서비스 제공자가 정한
+          절차를 따라야 할 수 있습니다.
+        </p>
+
+
+        <h2>
+          8. 아동 및 미성년자 관련 안내
+        </h2>
+
+        <p>
+          미성년자는 관련 법령 및
+          필요한 경우 법정대리인의 동의 또는
+          관리 하에 서비스를 이용하여야 합니다.
+        </p>
+
+        <p>
+          Google 계정,
+          Google Play Games,
+          결제 설정,
+          광고 설정 등
+          외부 플랫폼과 관련된 사항은
+          해당 플랫폼의 정책에 따라
+          이용자 및 보호자가
+          관리하여야 합니다.
+        </p>
+
+
+        <h2>
+          9. 안전성 확보 조치
+        </h2>
+
+        <p>
+          개발자는 합리적인 범위에서
+          서비스의 안정적인 운영과
+          이용자 정보 보호를 위해
+          필요한 관리적·기술적 조치를
+          고려하고 적용합니다.
+        </p>
+
+        <p>
+          Google Play Games,
+          Google Play Billing,
+          Google AdMob,
+          Firebase Analytics,
+          Firebase Crashlytics 등의
+          외부 서비스는
+          각 서비스 제공자가 운영하는
+          보안 정책과 기술적 보호조치에 따라
+          관련 정보를 처리할 수 있습니다.
+        </p>
+
+
+        <h2>
+          10. 개인정보처리방침 변경
+        </h2>
+
+        <p>
+          본 개인정보처리방침은
+          관련 법령,
+          서비스 기능,
+          사용하는 SDK,
+          플랫폼 정책 또는
+          서비스 운영 방식의 변경에 따라
+          수정될 수 있습니다.
+        </p>
+
+        <p>
+          중요한 내용이 변경되는 경우
+          개인정보처리방침 웹페이지,
+          게임 내 공지 또는
+          기타 합리적인 방법을 통하여
+          변경 내용을 안내할 수 있습니다.
+        </p>
+
+
+        <h2>
+          11. 시행일
+        </h2>
+
+        <p>
+          본 개인정보처리방침은
+          <strong>2026년 10월 12일</strong>부터 적용됩니다.
+        </p>
+
+
+        <div class="footer">
+
+          <div>
+            © Design Future Games.
+            All rights reserved.
+          </div>
+
+          <div class="footer-small">
+            이 페이지는
+            Swipe Ball: Global Rankings의
+            한국어 개인정보처리방침 페이지입니다.
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+  </div>
+
+</body>
+</html>
